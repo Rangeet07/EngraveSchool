@@ -10,19 +10,18 @@ const HeroForm = () => {
         width="100%"
         padding="2rem"
         borderRadius="sm"
-        backgroundColor="white"
-        color="gray.700"
+        backgroundColor="black"
+        color="white"
     >
         <Text fontSize="xl" fontWeight="bold">
         "Uncover Your Creative Spirit"
         </Text>
         <Text fontSize="lg">Deep dive to become the pro artist</Text>
         <Flex gap={{base:"0" , sm: "1rem"}} flexDirection={{base:'column', sm: "row"}}>
-        <Button type="submit" colorScheme="blue" width="50%" fontSize="xl" padding="2rem" marginTop="2rem"> Book Now </Button>
+        <Button  colorScheme="purple"  type="submit"  width="50%" fontSize="xl" padding="2rem" marginTop="2rem"> Book Now </Button>
         <Flex flexDirection='column' marginTop="2rem">
-        <Link href='https://wa.me/9434810330' color='teal.600' src=''  > Book on Whatsapp</Link>
+        <Link href='https://wa.me/9434810330' color='white' src=''  > Book on Whatsapp</Link>
         <Link href='https://wa.me/9434810330' color='teal.600' src='' >Book on Call</Link>
-
         </Flex>
       
 
