@@ -8,7 +8,7 @@ const HeroBanner = () => {
     <Box
         position="relative"
         minHeight={{ base: "110vh" , sm: "70vh"}}
-        backgroundImage={`url('./hero/herobg1.jpg')`}
+        backgroundImage={`url('https://images.unsplash.com/photo-1660917096320-79875bb7efd6?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')`}
         backgroundPosition="center"
         backgroundSize="cover"
         backgroundAttachment="fixed"
@@ -34,8 +34,8 @@ const HeroBanner = () => {
         padding="2rem"
         >
             <Box width={{ base: "100%", sm: "50%"}}>
-                <Text fontSize={{base:'4xl', sm:"5xl"}} lineHeight='shorter' marginBottom='1.5rem'>
-                    Book a <strong>Free Orientation </strong> 
+                <Text fontSize={{base:'4xl', sm:"5xl"}}  lineHeight='shorter' marginBottom='1.5rem'>
+                    Book a Free Orientation 
                     today ...
                 </Text>
             </Box>

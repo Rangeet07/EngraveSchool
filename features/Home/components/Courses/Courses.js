@@ -63,7 +63,7 @@ columns={{ base: 1, lg: 2 }}
 <Box
         position="relative"
         minHeight={{ base: "60vh" , sm: "70vh"}}
-        backgroundImage={`url('https://images.unsplash.com/photo-1693418594695-30eadb63c077?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')`}
+        backgroundImage={`url('https://images.unsplash.com/photo-1660917096335-d3a6b1f22ff5?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')`}
         backgroundPosition="center"
         backgroundSize="cover"
 
@@ -106,7 +106,7 @@ columns={{ base: 1, lg: 2 }}
     </Box>
     <Box
         position="relative"
-        minHeight={{ base: "110vh" , sm: "70vh"}}
+        minHeight={{ base: "60vh" , sm: "70vh"}}
         backgroundImage={`url('https://images.unsplash.com/photo-1607281503082-f01fedd97a5b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzR8fHRhdHRvb3xlbnwwfHwwfHx8MA%3D%3D')`}
         backgroundPosition="center"
         backgroundSize="cover"
