@@ -47,11 +47,14 @@ columns={{ base: 1, lg: 2 }}
                 </Text>
                 <Text color="yellow">{course.duration}</Text>
 
-                <Text isTruncated>
+                <Text >
                 {course.description}
                 </Text>
+                <Text color="green">
+                    {course.price}
+                </Text>
                 <Button variant='solid' colorScheme='purple'>
-        Read More
+        BOOK
       </Button>
             </Box>
     
