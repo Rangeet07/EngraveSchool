@@ -19,10 +19,10 @@ const NavigationMobile = () => {
           <Link href="/">
           <Box display="flex" gap="2" alignItems="center">
             {/* <HiHomeModern size="30" /> */}
-            <Text fontSize="2xl" fontWeight="black">
+            {/* <Text fontSize="2xl" fontWeight="black">
               ENGRAVE
-            </Text>
-  {/* <Image src='logo.jpg' boxSize='150px' objectFit="cover"/> */}
+            </Text> */}
+   <Image src='logo.jpg' width="100px" height="40px" position="absolute" top="10px" left="5px" boxSize='100px' objectFit="cover"/> 
           </Box>
           </Link>
 

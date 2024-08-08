@@ -1,4 +1,4 @@
-import { Box, Button, Flex, Text } from '@chakra-ui/react'
+import { Box, Button, Flex, Image, Text } from '@chakra-ui/react'
 import Link from 'next/link';
 import React from 'react'
 import {HiHomeModern} from "react-icons/hi2"
@@ -17,10 +17,11 @@ const NavigationDesktop = () => {
         <Flex alignItems="center" justifyContent="space-between">
           <Link href="/">
           <Box display="flex" gap="2" alignItems="center">
-            <HiHomeModern size="30" />
+            {/* <HiHomeModern size="30" />
             <Text fontSize="2xl" fontWeight="black">
               ENGRAVE
-            </Text>
+            </Text> */}
+            <Image src='logo.jpg' width="100px" height="40px" position="absolute" top="10px" left="5px" boxSize='100px' objectFit="cover"/> 
           </Box>
           </Link>
           <Flex gap='12' alignItems='center' fontWeight="medium">

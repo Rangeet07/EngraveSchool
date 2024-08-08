@@ -18,8 +18,7 @@ const HeroBanner = () => {
             position="absolute"
             width="100%"
             height="100%"
-            // opacity="0.85"
-            // backgroundColor="purple.900"
+            opacity="0.55"
         />
         <Box display="flex" flexDirection={{base: "column", sm: "row" }} alignItems="center" justifyContent={{ base: 'flex-start', sm: 'space-between'}}
         maxWidth='1280px'
