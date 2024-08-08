@@ -28,16 +28,7 @@ const NavigationDesktop = () => {
             <NavigationLink key={item.title} {...item}/>
           ))
           }
-          <Button
-            padding="1.5rem"
-            colorScheme="blackAlpha"
-            fontSize="0.8rem"
-            fontWeight="medium"
-          
-          >
-
-            BOOK 
-          </Button>
+       
           </Flex>
         </Flex>
 
