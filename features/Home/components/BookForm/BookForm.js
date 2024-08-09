@@ -17,6 +17,8 @@ const BookForm = ({isOpen, onClose}) => {
                 }
             
               })
+          reset()
+
             }
 
   return (
