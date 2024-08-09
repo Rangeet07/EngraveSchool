@@ -1,9 +1,12 @@
 import DefaultLayout from '@/features/Layouts/DefaultLayout'
-import { Box, Button, SimpleGrid, Text } from '@chakra-ui/react'
+import { Box, Button, SimpleGrid, Text, useDisclosure } from '@chakra-ui/react'
 import React from 'react'
 import courseconst, { courses } from '@/features/data/courseconst.js'
+import BookForm from '@/features/Home/components/BookForm/BookForm'
 
 const index = () => {
+    const {isOpen, onClose, onOpen} = useDisclosure();
+
   return (
     <DefaultLayout>
 <SimpleGrid
@@ -26,8 +29,9 @@ columns={{ base: 1, lg: 2 }}
             position="absolute"
             width="100%"
             height="100%"
-            // opacity="0.85"
-            // backgroundColor="purple.900"
+            opacity="0.85"
+            backgroundColor="gray.900"
+            
         />
         <Box display="flex" flexDirection={{base: "column", sm: "row" }} alignItems="center" justifyContent={{ base: 'flex-start', sm: 'space-between'}}
         maxWidth='1280px'
@@ -50,10 +54,10 @@ columns={{ base: 1, lg: 2 }}
                 <Text >
                 {course.description}
                 </Text>
-                <Text color="green">
+                <Text color="white" fontSize="3xl">
                     {course.price}
                 </Text>
-                <Button variant='solid' colorScheme='purple'>
+                <Button variant='solid' colorScheme='purple' onClick={onOpen}>
         BOOK
       </Button>
             </Box>
@@ -68,6 +72,8 @@ columns={{ base: 1, lg: 2 }}
 
 
 </SimpleGrid>
+<BookForm isOpen={isOpen} onClose={onClose}/>
+
 </DefaultLayout>
   )
 }

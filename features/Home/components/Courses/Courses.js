@@ -1,5 +1,6 @@
 import { Box, Button, ButtonGroup, Card, CardBody, CardFooter, CardHeader, Divider, Flex, Grid, GridItem, Heading, Image, SimpleGrid, Stack, Text } from '@chakra-ui/react'
 import React from 'react'
+import BookForm from '../BookForm/BookForm'
 
 const Courses = () => {
   return (
@@ -147,6 +148,7 @@ columns={{ base: 1, lg: 2 }}
     </Box>
 
     </SimpleGrid>
+    <BookForm/>
 
     </Box>
   )

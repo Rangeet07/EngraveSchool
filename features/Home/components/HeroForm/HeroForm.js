@@ -1,13 +1,18 @@
-import { Box, Button, Flex, Link, Text } from '@chakra-ui/react'
+import { Box, Button, Flex, Link, Text, useDisclosure } from '@chakra-ui/react'
 import React from 'react'
 import {PhoneIcon} from '@chakra-ui/icons'
 import { FaWhatsappSquare } from "react-icons/fa";
 import { IoCallOutline } from "react-icons/io5";
+import BookForm from '../BookForm/BookForm';
 
 
 
 const HeroForm = () => {
+
+    const {isOpen, onClose, onOpen} = useDisclosure();
+
   return (
+    <>
     <Box
         width="100%"
         padding="2rem"
@@ -21,10 +26,10 @@ const HeroForm = () => {
         </Text>
         <Text fontSize="lg">Deep dive to become the pro artist</Text>
         <Flex gap={{base:"0" , sm: "1rem"}} flexDirection={{base:'column', sm: "row"}}>
-        <Button  colorScheme="purple"  type="submit"  width="50%" fontSize="xl" padding="2rem" marginTop="2rem"> Book Now </Button>
+        <Button  colorScheme="purple" onClick={onOpen} type="submit"  width="50%" fontSize="xl" padding="2rem" marginTop="2rem"> Book Now </Button>
         <Flex flexDirection='column' marginTop="2rem">
-        <Link href='https://wa.me/9434810330' color='white' src=''  > <FaWhatsappSquare/>Book on Whatsapp</Link>
-        <Link href='https://wa.me/9434810330' color='teal.600' src='' ><IoCallOutline/>Book on Call</Link>
+        <Link href='https://wa.me/9434810330'   color='green' src=''  > <FaWhatsappSquare />Book on Whatsapp</Link>
+        <Link href='https://wa.me/9434810330'   color='white' src='' ><IoCallOutline/>Book on Call</Link>
         </Flex>
       
 
@@ -33,6 +38,8 @@ const HeroForm = () => {
 
         </Flex>
     </Box>
+    <BookForm isOpen={isOpen} onClose={onClose}/>
+    </>
 )
 }
 
