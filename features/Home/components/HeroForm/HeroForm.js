@@ -28,7 +28,7 @@ const HeroForm = () => {
         <Flex gap={{base:"0" , sm: "1rem"}} flexDirection={{base:'column', sm: "row"}}>
         <Button  colorScheme="purple" onClick={onOpen} type="submit"  width="50%" fontSize="xl" padding="2rem" marginTop="2rem"> Book Now </Button>
         <Flex flexDirection='column' marginTop="2rem">
-        <Link href='https://wa.me/9434810330'   color='green' src=''  > <FaWhatsappSquare />Book on Whatsapp</Link>
+        <Link href='https://wa.me/9434810330'   color='#30ea66' src=''  > <FaWhatsappSquare />Book on Whatsapp</Link>
         <Link href='https://wa.me/9434810330'   color='white' src='' ><IoCallOutline/>Book on Call</Link>
         </Flex>
       

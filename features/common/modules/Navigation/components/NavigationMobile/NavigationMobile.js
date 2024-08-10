@@ -10,10 +10,15 @@ const NavigationMobile = () => {
   return (
     <Box
     color="black.600"
-    padding="2rem"
-    backgroundColor="=white"
+    padding="1rem"
+    backgroundColor="white"
     display={{ base: "block", md: "none"}}
-    
+    position="sticky"
+    top="0"
+    left="0"
+    right="0"
+    zIndex="1"
+    height="100px"
     >
         <Flex alignItems="center" justifyContent="space-between">
           <Link href="/">
@@ -22,7 +27,7 @@ const NavigationMobile = () => {
             {/* <Text fontSize="2xl" fontWeight="black">
               ENGRAVE
             </Text> */}
-   <Image src='logo.jpg' width="100px" height="40px" position="absolute" top="10px" left="5px" boxSize='100px' objectFit="cover"/> 
+   <Image src='logo.jpg'  position="absolute" top="10px" left="5px"  boxSize="90px"  objectFit="cover" /> 
           </Box>
           </Link>
 
@@ -32,6 +37,7 @@ const NavigationMobile = () => {
             aria-label='Options'
             icon={ <HamburgerIcon/>}
             variant="outline"
+            marginTop="16px"
             />
             <MenuList>
             {navigationLinks.map((item) => (
@@ -44,7 +50,8 @@ const NavigationMobile = () => {
 
         </Flex>
 
-    </Box>  )
+    </Box>  
+  )
 }
 
 export default NavigationMobile

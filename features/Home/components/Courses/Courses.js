@@ -136,7 +136,7 @@ columns={{ base: 1, lg: 2 }}
                 <Text fontSize={{base:'4xl', sm:"5xl"}} lineHeight='shorter' marginBottom='1.5rem'>
                 FOUNDATION COURSE IN TATTOO ART
                 </Text>
-                <Text color="yellow">45 Days</Text>
+                <Text color="#805ad5">45 Days</Text>
                 <Text isTruncated>
                 A 45-day accelerated curriculum that improves your tattoo skills by teaching the fundamentals of tattoo art & design and providing you with a hands-on tattooing experience. It also exposes you to business management & marketing. A highly recommended course for self-taught or rising artists wishing to improve their tattoo
                 </Text>

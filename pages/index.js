@@ -1,4 +1,5 @@
 import Courses from "@/features/Home/components/Courses";
+import FeaturedPortfolio from "@/features/Home/components/FeaturedPortfolio";
 import HeroBanner from "@/features/Home/components/HeroBanner";
 import DefaultLayout from "@/features/Layouts/DefaultLayout";
 import Footer from "@/features/common/modules/Footer";
@@ -10,7 +11,10 @@ export default function Home() {
     <>
 <DefaultLayout >
   <HeroBanner/>
+
   <Courses/>
+  <FeaturedPortfolio/>
+
 </DefaultLayout>
     </>
   );
