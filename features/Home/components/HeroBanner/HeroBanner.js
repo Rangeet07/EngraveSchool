@@ -4,7 +4,7 @@ import HeroForm from '../HeroForm'
 
 const HeroBanner = () => {
   return (
-    <Fade in>
+    // <Fade in>
     <Box
         position="relative"
         minHeight={{ base: "110vh" , sm: "70vh"}}
@@ -42,7 +42,7 @@ const HeroBanner = () => {
             <Box width={{base:"100%", sm:"auto"}} marginTop={{ base: "2rem", sm: "0"}}><HeroForm/></Box>
         </Box>
     </Box>
-    </Fade>
+    // </Fade>
   )
 }
 

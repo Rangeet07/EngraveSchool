@@ -1,9 +1,11 @@
 import { Box, Text } from '@chakra-ui/react';
 import React from 'react'
+import PortfolioSlider from './components/PortfolioSlider';
+// import PortfolioSlider from './components/PortfolioSlider';
 
-const FeaturedPortfolio = () => {
+const FeaturedPortfolio = ({portfolios}) => {
   return (
-    <Box >
+    <Box id='portfolio'>
         <Box
         maxWidth="1280px"
         margin="0 auto"
@@ -35,7 +37,7 @@ const FeaturedPortfolio = () => {
             >
                 A selection of our work
             </Text>
-            Property slider
+            <PortfolioSlider portfolios={portfolios}/>
         </Box>  
         </Box>
         

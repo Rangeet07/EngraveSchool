@@ -20,7 +20,7 @@ columns={{ base: 1, lg: 2 }}
     <Box
         position="relative"
         minHeight={{ base: "60vh" , sm: "70vh"}}
-        backgroundImage={`url('https://images.unsplash.com/photo-1660917096335-d3a6b1f22ff5?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')`}
+        backgroundImage={`url("${course.url}" ) `}
         backgroundPosition="center"
         backgroundSize="cover"
 
@@ -29,7 +29,7 @@ columns={{ base: 1, lg: 2 }}
             position="absolute"
             width="100%"
             height="100%"
-            opacity="0.85"
+            opacity="0.65"
             backgroundColor="gray.900"
             
         />
