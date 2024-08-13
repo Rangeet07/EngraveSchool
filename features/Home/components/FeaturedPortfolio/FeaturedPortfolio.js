@@ -5,7 +5,7 @@ import PortfolioSlider from './components/PortfolioSlider';
 
 const FeaturedPortfolio = ({portfolios}) => {
   return (
-    <Box id='portfolio'>
+    <Box id='portfolio' zIndex="0">
         <Box
         maxWidth="1280px"
         margin="0 auto"

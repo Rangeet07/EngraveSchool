@@ -17,7 +17,7 @@ const NavigationMobile = () => {
     top="0"
     left="0"
     right="0"
-    zIndex="1"
+    zIndex="2"
     height="100px"
     >
         <Flex alignItems="center" justifyContent="space-between">
