@@ -1,10 +1,9 @@
-import { Box , Fade, Text} from '@chakra-ui/react'
+import { Box , Text} from '@chakra-ui/react'
 import React from 'react'
 import HeroForm from '../HeroForm'
 
 const HeroBanner = () => {
   return (
-    // <Fade in>
     <Box
         position="relative"
         minHeight={{ base: "110vh" , sm: "70vh"}}
@@ -42,7 +41,6 @@ const HeroBanner = () => {
             <Box width={{base:"100%", sm:"auto"}} marginTop={{ base: "2rem", sm: "0"}}><HeroForm/></Box>
         </Box>
     </Box>
-    // </Fade>
   )
 }
 
