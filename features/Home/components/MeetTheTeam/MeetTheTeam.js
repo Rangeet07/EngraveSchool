@@ -5,7 +5,7 @@ import ArtistCard from './components/ArtistCard'
 
 const MeetTheTeam = () => {
   return (
-    <Box id="team" maxWidth="1280px" margin="0 auto" paddingY={{base:"3rem", sm: "6rem"}}
+    <Box id="team" maxWidth="1280px" margin="0 auto" paddingY={{base:"3rem", sm: "6rem"}} 
     >
         <Text
             fontSize={{ base:"4xl", sm: "5xl"}}
@@ -13,10 +13,11 @@ const MeetTheTeam = () => {
             fontWeight="light"
             paddingX="2rem"
             textAlign="center"
+            alignItems="center"
         >
             Meet The Team
         </Text>
-        <Text
+        {/* <Text
             fontSize="2xl"
             fontWeight="light"
             marginTop="1rem"
@@ -26,14 +27,15 @@ const MeetTheTeam = () => {
         
         >
             The best in the industry, at your service 24/7
-        </Text>
+        </Text> */}
         <Flex
             direction={{ base:"column", sm:"row"}}
             justifyContent="space-between"
             gap="1.5rem"
+
         >
             {artists.map((artist) => (
-               <ArtistCard key={artist.name} {...artist} />
+               <ArtistCard  key={artist.name} {...artist} />
             ))}
         </Flex>
 

@@ -1,30 +1,30 @@
 import { Box, Image, Text } from '@chakra-ui/react'
 import React from 'react'
 
-const ArtistCard = ({name, image, description, title}) => {
+const ArtistCard = ({name, designation, image, description, title}) => {
   return (
 <Box
-    backgroundColor="#f1f1f14a"
-    padding="2rem"
+backgroundColor="purple.50"    padding="2rem"
     display="flex"
     flexDirection="column"
     justifyContent="center"
-    alignItems="center"
+    alignItems={{base:"center", sm:"start"}}
     textAlign="center"
     marginBottom={{ base:"1rem", sm: "0"}}
 >
     <Image 
         src={image}
-        width="10rem"
-        height="10rem"
+        width="15rem"
+        height="15rem"
         objectFit="cover"
-        borderRadius="full"
+        // borderRadius="full"
         marginBottom="2rem"
         shadow="md"
     
     />
-    <Text color="blue.400" fontSize="4xl" fontWeight="bold">{name}</Text>
-    <Text fontSize="lg" color="blue.600">
+    <Text color="purple.700" fontSize="4xl" fontWeight="bold">{name}</Text>
+    <Text>{designation}</Text>
+    <Text fontSize="lg" color="purple.600">
         {title}
     </Text>
     <Text fontSize="md" fontWeight="light" noOfLines="4" marginTop="1rem" color="gray.600">{description}</Text>
