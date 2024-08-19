@@ -4,7 +4,7 @@ import React from 'react'
 const ArtistCard = ({name, designation, image, description, title}) => {
   return (
 <Box
-backgroundColor="purple.50"    padding="2rem"
+padding="2rem"
     display="flex"
     flexDirection="column"
     justifyContent="center"

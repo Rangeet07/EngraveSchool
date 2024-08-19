@@ -16,24 +16,24 @@ const Footer = () => {
 
 >
     <SimpleGrid
-        columns="4"
+        columns="2"
         color="whiteAlpha.700"
-        gap="1.7rem"
+        gap={{base:"4rem", sm:"1rem"}}
         minChildWidth="150px"
         >
             <Flex flexDirection="column">
-                <FooterHeader title="Courses"/>
+                <FooterHeader title="Contact Us"/>
                 {courses.map((item) => (
                     <FooterLink key={item.name} {...item} />
                 ))}
             </Flex>
             <Flex flexDirection="column">
-                <FooterHeader title="About"/>
+                <FooterHeader title="Quick Links"/>
                 {about.map((item) => (
                     <FooterLink key={item.name} {...item} />
                 ))}
             </Flex>
-            <Flex flexDirection="column">
+            {/* <Flex flexDirection="column">
                 <FooterHeader title="Internship"/>
                 {Internship.map((item) => (
                     <FooterLink key={item.name} {...item} />
@@ -44,7 +44,7 @@ const Footer = () => {
                 {ourClients.map((item) => (
                     <FooterLink key={item.name} {...item} />
                 ))}
-            </Flex>
+            </Flex> */}
         </SimpleGrid>
 
 
@@ -75,10 +75,16 @@ const Footer = () => {
 
 export default Footer
 
-const FooterLink = ({name, link})=> {
+const FooterLink = ({name, link, icon})=> {
     return(
         <Text>
-            <Link href={link}>{name}</Link>
+            <Link href={link}>
+                <Flex gap="1rem" s>
+                {icon}
+                
+                {name}
+                </Flex>
+                </Link>
         </Text>
     )
 };
@@ -87,6 +93,7 @@ const FooterHeader = ({title}) => {
     return(
         <Text  as="h4" fontWeight="Light" fontSize="xl" marginBottom="1rem">
 {title}
+
         </Text>
     )
 }

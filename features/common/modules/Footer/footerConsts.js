@@ -1,13 +1,20 @@
+import { EmailIcon, PhoneIcon } from "@chakra-ui/icons"
+import { FaAddressCard } from "react-icons/fa"
+
 export const courses = [
-    {name: "diploma", link:"/diploma"},
-    {name: "crashcourse", link:"/craschc"},
-    {name: "degree", link:"/degree"},
+    {name: "Planet Mall,Sevoke Road, Siliguri", link:"/diploma", icon: <FaAddressCard/> },
+    {name: "+91 78640 09773 / 9609526126 ", link:"", icon: <PhoneIcon/> },
+    {name: "engraveinstitute@gmail.com", link:"" ,icon: <EmailIcon/> },
 ]
 
 export const about = [
-    {name: "diploma", link:"/diploma"},
-    {name: "crashcourse", link:"/craschc"},
-    {name: "degree", link:"/degree"},
+    {name: "home", link:"/"},
+    {name: "courses", link:"/courses"},
+    {name: "team", link:"/#team"},
+    {name: "portfolio", link:"/#portfolio"},
+    {name: "success stories", link:"/#stories"},
+
+
 ]
 
 export const Internship = [

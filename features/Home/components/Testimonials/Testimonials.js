@@ -4,7 +4,7 @@ import TestimonialCard from './components/TestimonialCard'
 
 const Testimonials = () => {
   return (
-<Box backgroundColor="purple.50">
+<Box id="stories" backgroundColor="purple.50">
     <Box
         maxWidth="1280px"
         margin="0 auto"

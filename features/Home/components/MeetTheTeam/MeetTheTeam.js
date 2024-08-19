@@ -15,7 +15,7 @@ const MeetTheTeam = () => {
             textAlign="center"
             alignItems="center"
         >
-            Meet The Team
+            Meet The Mentor
         </Text>
         {/* <Text
             fontSize="2xl"
