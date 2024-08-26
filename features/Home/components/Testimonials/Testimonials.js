@@ -26,7 +26,7 @@ const Testimonials = () => {
         marginBottom="3rem"
         paddingX="2rem"
         textAlign="center"
-         >
+        >
             Here's what our mentees have to say.
          </Text>
          <SimpleGrid columns="3" minChildWidth="300px" gap={{base:"0.5rem", sm:"2.5rem"}}>
@@ -36,7 +36,8 @@ const Testimonials = () => {
             ))}
          </SimpleGrid>
     </Box>
-</Box>  )
+</Box> 
+ )
 }
 
 export default Testimonials

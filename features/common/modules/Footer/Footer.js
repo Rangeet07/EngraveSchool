@@ -50,7 +50,7 @@ const Footer = () => {
 
 </Box>
 <Box
-    backgroundColor="blue.900"
+    
     display='flex'
     padding="2rem"
     justifyContent="center"
@@ -75,15 +75,12 @@ const Footer = () => {
 
 export default Footer
 
-const FooterLink = ({name, link, icon})=> {
+const FooterLink = ({name, link})=> {
     return(
         <Text>
             <Link href={link}>
-                <Flex gap="1rem" s>
-                {icon}
                 
                 {name}
-                </Flex>
                 </Link>
         </Text>
     )

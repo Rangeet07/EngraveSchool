@@ -32,7 +32,7 @@ const PortfolioSlider = ({portfolios}) => {
     className="mySwiper"
     >
     {portfolios.map((portfolio) => (
-      <SwiperSlide key={portfolio.data}>
+      <SwiperSlide key={portfolio.date}>
         <PortfolioCard {...portfolio}/>
 
         

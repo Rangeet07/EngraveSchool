@@ -9,7 +9,7 @@ export const courses = [
     },
     {
         name: "COMPLETE COURSE IN TATTOO ART",
-        duration:'1 year',
+        duration:'45 days',
         description: "Designed for people who are determined to make a career in the tattoo industry. The complete course covers all aspects of tattoo learning, from building the right foundation to master the advanced level of tattoo techniques.",
         price: '55000/-',
         url: "https://images.unsplash.com/photo-1660917096335-d3a6b1f22ff5?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -17,7 +17,7 @@ export const courses = [
     },
     {
         name: "TATTOO COURSE IN B&G REALISM",
-        duration:'1 year',
+        duration:'45 days',
         description: "A course specifically intended for artists already working in the business but want to learn more and expand their horizons. This advanced course assists tattoo artists in taking a step further, mastering new techniques, stepping out of their comfort zones, and reaching new milestones.",
         price: '40000/-',
         url: "https://images.unsplash.com/photo-1568515045052-f9a854d70bfd?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
