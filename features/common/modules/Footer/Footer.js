@@ -2,6 +2,7 @@ import { Box, Flex, SimpleGrid, Text } from '@chakra-ui/react'
 import { courses, about, Internship, ourClients } from './footerConsts'
 import Link from 'next/link'
 import { HiHomeModern } from 'react-icons/hi2'
+import { FaFacebook, FaInstagram, FaPhone, FaWhatsapp } from 'react-icons/fa'
 
 
 const Footer = () => {
@@ -33,18 +34,22 @@ const Footer = () => {
                     <FooterLink key={item.name} {...item} />
                 ))}
             </Flex>
-            {/* <Flex flexDirection="column">
-                <FooterHeader title="Internship"/>
+             {/* <Flex flexDirection="column" >
+                <FooterHeader title="Social Media"/>
+
+                <Link href="https://www.instagram.com/engrave_tattoo_school/"><FaInstagram/></Link>
+                <Link href="https://www.facebook.com/engravetat"><FaFacebook/></Link>
+                <Link href='https://wa.me/9434810330'><FaWhatsapp/></Link>
                 {Internship.map((item) => (
                     <FooterLink key={item.name} {...item} />
                 ))}
-            </Flex>
-            <Flex flexDirection="column">
-                <FooterHeader title="Our Clients"/>
-                {ourClients.map((item) => (
-                    <FooterLink key={item.name} {...item} />
-                ))}
             </Flex> */}
+            {/* // <Flex flexDirection="column">
+            //     <FooterHeader title="Our Clients"/>
+            //     {ourClients.map((item) => (
+            //         <FooterLink key={item.name} {...item} />
+            //     ))}
+            // </Flex>  */}
         </SimpleGrid>
 
 
@@ -58,6 +63,12 @@ const Footer = () => {
     flexDirection="column"
     color="white"
 >
+    <Flex gap="1rem" padding="1rem"> 
+    <Link href="https://www.instagram.com/engrave_tattoo_school/"><FaInstagram/></Link>
+                <Link href="https://www.facebook.com/engravetat"><FaFacebook/></Link>
+                <Link href='https://wa.me/9434810330'><FaWhatsapp/></Link>
+    </Flex>
+
 <Box display="flex" gap="2" alignItems="center">
 
     <HiHomeModern/>
@@ -65,6 +76,7 @@ const Footer = () => {
         ENGRAVE
     </Text>
 </Box>
+
 <Text marginTop="1rem" fontSize="xs" textAlign="center">
     All rights reserved - Copyright ENGRAVE
 </Text>

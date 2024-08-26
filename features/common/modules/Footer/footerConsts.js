@@ -2,7 +2,7 @@ import { EmailIcon, PhoneIcon } from "@chakra-ui/icons"
 import { FaAddressCard } from "react-icons/fa"
 
 export const courses = [
-    {name: "Mia Garage Building, Sevoke Road, Siliguri", link:"/diploma", icon: <FaAddressCard/> },
+    {name: "Mia Garage Building,Hill Cart Road, Siliguri", link:"/diploma", icon: <FaAddressCard/> },
     {name: "+91 78640 09773  ", link:"", icon: <PhoneIcon/> },
     {name: "engraveinstitute@gmail.com", link:"" ,icon: <EmailIcon/> },
 ]

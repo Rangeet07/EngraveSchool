@@ -24,7 +24,7 @@ const TestimonialCard = ({name, image, address, testimonial}) => {
                 objectFit="cover"
                 borderRadius="full"
                 />
-                <Box>by <Text as="span">{name}</Text>
+                <Box> <Text as="span">{name}</Text>
                 <Text fontSize="lg" fontStyle="italic" fontWeight="light" color="gray.600"> 
                  {address}
                 </Text>
