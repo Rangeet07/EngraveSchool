@@ -38,6 +38,7 @@ const FeaturedPortfolio = ({portfolios}) => {
                 A selection of our work
             </Text>
             <PortfolioSlider portfolios={portfolios}/>
+
         </Box>  
         </Box>
         

@@ -71,9 +71,9 @@ const Footer = () => {
 
 <Box display="flex" gap="2" alignItems="center">
 
-    <HiHomeModern/>
+    
     <Text fontSize="lg" fontWeight="black">
-        ENGRAVE
+        ENGRAVE TATTOO SCHOOL
     </Text>
 </Box>
 

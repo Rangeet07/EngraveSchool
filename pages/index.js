@@ -7,6 +7,13 @@ import DefaultLayout from "@/features/Layouts/DefaultLayout";
 import Footer from "@/features/common/modules/Footer";
 import Navigation from "@/features/common/modules/Navigation";
 
+export const metadata = {
+  title: {
+    default: 'Engrave Tattoo School',
+    template: "%s- Engrave Tattoo School"
+  },
+  description: 'Welcome to Engrave Tattoo School',
+};
 
 export default function Home({portfolios}) {
   return (

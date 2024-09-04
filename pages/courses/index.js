@@ -3,11 +3,20 @@ import { Box, Button, SimpleGrid, Text, useDisclosure } from '@chakra-ui/react'
 import React from 'react'
 import courseconst, { courses } from '@/features/data/courseconst.js'
 import BookForm from '@/features/Home/components/BookForm/BookForm'
+import Head from 'next/head'
 
+// export const metadata = {
+//     title: "Courses",
+//     description: 'Welcome to Engrave Tattoo School',
+//   };
 const index = () => {
     const {isOpen, onClose, onOpen} = useDisclosure();
 
   return (
+    <>
+    <Head>
+<title>Courses</title>
+    </Head>
     <DefaultLayout>
 <SimpleGrid
 
@@ -75,6 +84,7 @@ columns={{ base: 1, lg: 2 }}
 <BookForm isOpen={isOpen} onClose={onClose}/>
 
 </DefaultLayout>
+</>
   )
 }
 

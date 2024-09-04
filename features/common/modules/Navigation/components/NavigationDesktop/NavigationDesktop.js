@@ -4,6 +4,13 @@ import React from 'react'
 import {HiHomeModern} from "react-icons/hi2"
 import { navigationLinks } from '../../NavigationConsts';
 
+export const metadata = {
+  title: {
+    default: 'Engrave Tattoo School',
+    template: "%s- Engrave Tattoo School"
+  },
+  description: 'Welcome to Engrave Tattoo School',
+};
 
 const NavigationDesktop = () => {
   return (

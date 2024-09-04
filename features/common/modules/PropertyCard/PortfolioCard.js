@@ -1,4 +1,4 @@
-import { Box, Text } from '@chakra-ui/react';
+import { Box, Link, Text } from '@chakra-ui/react';
 import { usePortfolioFormat } from '../../Hooks/usePortfolioFormat'
 
 
@@ -13,12 +13,14 @@ const PortfolioCard = (portfolio) => {
   } = usePortfolioFormat(portfolio);
   return (
     <Box marginBottom="4rem" backgroundColor="#fff">
+      <Link href='/portfolio'>
       <Box backgroundImage={`url("${photo}")`} height="250px"
         backgroundPosition="center center"
         backgroundSize="cover"
         display="flex"
         flexDirection="column"
         justifyContent="space-between"
+        
 
 
       >
@@ -30,6 +32,7 @@ const PortfolioCard = (portfolio) => {
       {/* <Box padding="1.5rem">
         <Text>{title}</Text>
       </Box> */}
+      </Link>
     </Box>
   )
 }

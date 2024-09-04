@@ -1,6 +1,8 @@
-import { Box, Button, ButtonGroup, Card, CardBody, CardFooter, CardHeader, Divider, Flex, Grid, GridItem, Heading, Image, SimpleGrid, Stack, Text } from '@chakra-ui/react'
+import { Box, Button, ButtonGroup, Card, CardBody, CardFooter, CardHeader, Divider, Flex, Grid, GridItem, Heading, Image, Link, SimpleGrid, Stack, Text } from '@chakra-ui/react'
 import React from 'react'
 import BookForm from '../BookForm/BookForm'
+
+
 
 const Courses = () => {
   return (
@@ -90,17 +92,19 @@ columns={{ base: 1, lg: 2 }}
         >
             <Box width={{ base: "100%", sm: "50%"}}>
                 <Text fontSize={{base:'4xl', sm:"5xl"}} lineHeight='shorter' marginBottom='1.5rem'>
-                COMPLETE COURSE IN TATTOO ART
-
+                FOUNDATION COURSE IN TATTOO ART
                 </Text>
-                <Text color="yellow">1 Year</Text>
-
+                <Text color="yellow">45 days</Text>
                 <Text isTruncated>
-                Designed for people who are determined to make a career in the tattoo industry. The complete course covers all aspects of tattoo learning, from building the right foundation to master the advanced level of tattoo techniques.
+                A 45-day accelerated curriculum that improves your tattoo skills by teaching the fundamentals of tattoo art & design and providing you with a hands-on tattooing experience. It also exposes you to business management & marketing. A highly recommended course for self-taught or rising artists wishing to improve their tattoo
                 </Text>
+
+                <Link href='/courses'> 
+
                 <Button variant='solid' colorScheme='purple'>
         Read More
       </Button>
+      </Link>
             </Box>
     
         </Box>
@@ -134,15 +138,18 @@ columns={{ base: 1, lg: 2 }}
         >
             <Box width={{ base: "100%", sm: "50%"}}>
                 <Text fontSize={{base:'4xl', sm:"5xl"}} lineHeight='shorter' marginBottom='1.5rem'>
-                FOUNDATION COURSE IN TATTOO ART
+                DIPLOMA COURSE IN TATTOO ART
+
                 </Text>
-                <Text color="#805ad5">45 Days</Text>
+                <Text color="#805ad5">6 months</Text>
                 <Text isTruncated>
-                A 45-day accelerated curriculum that improves your tattoo skills by teaching the fundamentals of tattoo art & design and providing you with a hands-on tattooing experience. It also exposes you to business management & marketing. A highly recommended course for self-taught or rising artists wishing to improve their tattoo
+                Designed for people who are determined to make a career in the tattoo industry. The complete course covers all aspects of tattoo learning, from building the right foundation to master the advanced level of tattoo techniques.
                 </Text>
-                <Button variant='solid' colorScheme='purple'>
+                <Link href='/courses'> 
+                <Button variant='solid' colorScheme='purple' >
         Read More
       </Button>
+      </Link>
             </Box>
         </Box>
     </Box>

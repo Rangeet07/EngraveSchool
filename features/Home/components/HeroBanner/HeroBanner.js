@@ -7,7 +7,7 @@ const HeroBanner = () => {
     <Box
         position="relative"
         minHeight={{ base: "110vh" , sm: "70vh"}}
-        backgroundImage={`url('https://images.unsplash.com/photo-1660917096320-79875bb7efd6?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')`}
+        backgroundImage={`url('./hero/herobg2.jpg')`}
         backgroundPosition="center"
         backgroundSize="cover"
         backgroundAttachment="fixed"
@@ -17,7 +17,7 @@ const HeroBanner = () => {
             position="absolute"
             width="100%"
             height="100%"
-            backdropFilter="auto" backdropBlur="2px"
+            backdropFilter="auto" backdropBlur="1.5px"
             opacity="1px"
         />
         <Box display="flex" flexDirection={{base: "column", sm: "row" }} alignItems="center" justifyContent={{ base: 'flex-start', sm: 'space-between'}}
@@ -38,7 +38,7 @@ const HeroBanner = () => {
                     today ...
                 </Text>
             </Box>
-            <Box width={{base:"100%", sm:"auto"}} marginTop={{ base: "2rem", sm: "0"}}><HeroForm/></Box>
+            <Box width={{base:"100%", sm:"30%"}} marginTop={{ base: "2rem", sm: "0"}}><HeroForm/></Box>
         </Box>
     </Box>
   )
