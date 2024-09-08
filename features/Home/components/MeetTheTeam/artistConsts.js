@@ -10,7 +10,7 @@ export const artists = [
         name:"Riju Nath",
         designation: "(Lead Mentor, Founder)",
         title: "An Expert in Black & Grey Realism Tattoo Art & an Amazing Customize Tattoo Designer.",
-        image: "https://www.engravetattoos.com/images/riju-nath.jpg",
+        image: "./hero/Rijudisplay.jpg",
         description:"Riju Nath's impact on the tattooing world is undeniable, with his expertise spanning hyper-realism, color surrealism, and conceptual Hindu mythology-inspired tattoos. Renowned not just as the best in Siliguri, but among the top nationaly, his accolades include prestigious awards from international convention."
 
 

@@ -7,7 +7,7 @@ const HeroBanner = () => {
     <Box
         position="relative"
         minHeight={{ base: "110vh" , sm: "70vh"}}
-        backgroundImage={`url('./hero/herobg.jpg')`}
+        backgroundImage={`url('./hero/deepanjan.jpg')`}
         backgroundPosition="center"
         backgroundSize="cover"
         backgroundAttachment="fixed"
@@ -17,7 +17,6 @@ const HeroBanner = () => {
             position="absolute"
             width="100%"
             height="100%"
-            backdropFilter="auto" backdropBlur="1.5px"
             opacity="1px"
         />
         <Box display="flex" flexDirection={{base: "column", sm: "row" }} alignItems="center" justifyContent={{ base: 'flex-start', sm: 'space-between'}}

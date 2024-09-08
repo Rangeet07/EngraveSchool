@@ -14,8 +14,8 @@ padding="2rem"
 >
     <Image 
         src={image}
-        width="15rem"
-        height="15rem"
+        width="12rem"
+        height="18rem"
         objectFit="cover"
         // borderRadius="full"
         marginBottom="2rem"
