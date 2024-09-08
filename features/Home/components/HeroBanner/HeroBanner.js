@@ -7,7 +7,7 @@ const HeroBanner = () => {
     <Box
         position="relative"
         minHeight={{ base: "110vh" , sm: "70vh"}}
-        backgroundImage={`url('./hero/herobg2.jpg')`}
+        backgroundImage={`url('./hero/herobg.jpg')`}
         backgroundPosition="center"
         backgroundSize="cover"
         backgroundAttachment="fixed"
