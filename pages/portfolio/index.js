@@ -68,7 +68,7 @@ export default  function index({feed}) {
 }
 
 export  async function getStaticProps() {
-  const url = `https://graph.instagram.com/me/media?fields=id,caption,media_url,timestamp,media_type,permalink,username&access_token=${process.env.INSTAGRAM_KEY}&limit=10`;
+  const url = `https://graph.instagram.com/me/media?fields=id,caption,media_url,timestamp,media_type,permalink,username&access_token=${process.env.INSTAGRAM_KEY}&limit=20`;
   const data = await fetch(url)
   const feed = await data.json();
 
