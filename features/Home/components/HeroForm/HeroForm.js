@@ -19,7 +19,6 @@ const HeroForm = () => {
         borderRadius="sm"
         backgroundColor="black"
         color="white"
-        
     >
         <Text fontSize="xl" fontWeight="bold">
         "Uncover Your Creative Spirit"

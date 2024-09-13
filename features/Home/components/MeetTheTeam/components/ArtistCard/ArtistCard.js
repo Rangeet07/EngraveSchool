@@ -27,7 +27,7 @@ padding="2rem"
     <Text fontSize="lg" color="purple.600">
         {title}
     </Text>
-    <Text fontSize="md" fontWeight="light" noOfLines="4" marginTop="1rem" color="gray.600">{description}</Text>
+    <Text fontSize="md" fontWeight="light"  marginTop="1rem" color="gray.600">{description}</Text>
 
 </Box>
 

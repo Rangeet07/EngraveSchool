@@ -95,7 +95,7 @@ columns={{ base: 1, lg: 2 }}
                 FOUNDATION COURSE IN TATTOO ART
                 </Text>
                 <Text color="yellow">45 days</Text>
-                <Text isTruncated>
+                <Text noOfLines={4}>
                 A 45-day accelerated curriculum that improves your tattoo skills by teaching the fundamentals of tattoo art & design and providing you with a hands-on tattooing experience. It also exposes you to business management & marketing. A highly recommended course for self-taught or rising artists wishing to improve their tattoo
                 </Text>
 
@@ -142,7 +142,7 @@ columns={{ base: 1, lg: 2 }}
 
                 </Text>
                 <Text color="#805ad5">6 months</Text>
-                <Text isTruncated>
+                <Text noOfLines={3}>
                 Designed for people who are determined to make a career in the tattoo industry. The complete course covers all aspects of tattoo learning, from building the right foundation to master the advanced level of tattoo techniques.
                 </Text>
                 <Link href='/courses'> 
