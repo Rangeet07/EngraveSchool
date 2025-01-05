@@ -63,9 +63,14 @@ columns={{ base: 1, lg: 2 }}
                 <Text >
                 {course.description}
                 </Text>
-                <Text color="white" fontSize="3xl">
+                <Box display="flex"  >
+                <Text color="white" fontSize="3xl" textDecoration="line-through" paddingEnd="10px">
+                    {course.price1}
+                </Text>
+                <Text color="white" fontSize="3xl" >
                     {course.price}
                 </Text>
+                </Box>
                 <Button variant='solid' colorScheme='purple' onClick={onOpen}>
         BOOK
       </Button>
