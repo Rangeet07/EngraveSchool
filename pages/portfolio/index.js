@@ -47,7 +47,7 @@ export default  function index({feed}) {
         sx={{ columnCount: [1, 2, 3], columnGap: "8px" }}
       >
  
-           {
+           {/* {
                           
                         images.filter(d => d.media_type === "IMAGE").map((curElem) => {
                               return     <Image
@@ -61,7 +61,7 @@ export default  function index({feed}) {
                                 src={curElem.media_url}
                               />
                           })
-                      }
+                      } */}
       </Box>
     </DefaultLayout>
   )
